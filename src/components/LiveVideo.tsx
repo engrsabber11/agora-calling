@@ -35,7 +35,7 @@ export const LiveVideo = () => {
   const fetchToken = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/agora/create-room",
+        "http://192.168.12.83:8001/api/agora/create-room",
         {
           channelName,
         }
